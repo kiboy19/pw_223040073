@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+*,
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: azure;
+}
+
+.inidoc {
+  width: 60px;
+  height: 40px;
+}
+
+.navbar {
+  box-shadow: black 2px 2px 12px;
+}
+
+.navcol {
+  color: white !important;
+  font-size: 17px;
+}
+
+.navh {
+  font-size: 28px;
+  color: white;
+}
+
+.jumbo {
+  height: 70vh;
+}
+
+.imgjum {
+  width: 35%;
+  float: right;
+  transform: translateY(-140px);
+}
+
+.about {
+  padding: 65px;
+}
+
+.plus {
+  padding: 65px;
+  color: white;
+}
+.layanan {
+  display: flex;
+  flex-direction: row;
+}
+
+.services {
+  padding: 10px;
+}
+
+.circle {
+  width: 80px;
+  border-radius: 55px;
+}
+
+.artikel {
+  padding: 65px;
+  height: 80vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.card {
+  background-color: white;
+  width: 30%;
+  margin: auto;
+  box-shadow: black 2px 8px 12px;
+}
+
+.content {
+  padding: 15px;
+}
+
+.playanan {
+  font-size: 10px;
+  text-align: center;
+}
+
+.contai {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffff;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/* Responsive */
+
+/* Responsive 991 */
+@media only screen and (max-width: 991px) {
+  .imgjum {
+    transform: translateY(-40px);
+  }
+}
+
+/* Responsive 720 */
+@media only screen and (max-width: 720px) {
+  .imgjum {
+    transform: translateY(-80px);
+  }
+
+  .artikel {
+    padding: 15px;
+    height: 60vh;
+  }
+
+  .main {
+    padding: 10px;
+  }
+
+  .card {
+    width: 30%;
+  }
+}
+
+/* Responsive 480 */
+@media only screen and (max-width: 480px) {
+  .about {
+    padding: 45px;
+  }
+
+  .about h1 {
+    font-size: 35px;
+  }
+
+  .about p {
+    font-size: 20px;
+  }
+
+  .imgjum {
+    width: 50%;
+    transform: translateY(40px);
+  }
+
+  .plus {
+    padding: 20px;
+  }
+
+  .services {
+    padding: 2px;
+  }
+
+  .artikel {
+    height: auto;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
+
+/*responsive footer*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
