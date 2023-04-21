@@ -1,0 +1,746 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+/* Navigasi */
+.navbar {
+  background-color: #0071ef !important;
+}
+
+.navbar-brand {
+  transform: translateX(140px);
+}
+
+.navbar-brand img {
+  width: 300px;
+}
+.nav-item {
+  margin-left: 20px;
+  transform: translateX(-210px);
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.daftar {
+  background-color: #f8f9fa;
+  width: 120px;
+  text-align: center;
+  border-radius: 20px;
+  color: #0071ef !important;
+  transition: 0.5s;
+}
+
+.daftar:hover {
+  background-color: #0ffc71;
+  color: black !important;
+}
+
+/* Landingpage */
+.kesehatan {
+  background-color: #0071ef;
+}
+
+.content {
+  padding: 60px;
+  transform: translateY(50px);
+}
+
+.content h1 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 40px;
+}
+
+.content p {
+  font-size: 23px;
+  color: #fff;
+  font-style: italic;
+}
+
+.tombol {
+  width: 210px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #0071ef;
+  transition: 0.5s;
+  background-color: #fff;
+}
+
+.tombol:hover {
+  background-color: #0ffc71;
+  color: black;
+}
+
+/* Layanan */
+.layanan {
+  background-color: #f8f9fa;
+  height: 95vh;
+}
+.produk {
+  padding: 30px;
+}
+.cards {
+  background-color: #fff;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 20px;
+  transition: 0.6s;
+}
+.cards img {
+  border-radius: 20px;
+}
+.cards h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.cards p {
+  font-size: 15px;
+}
+.cards a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cards:hover {
+  transform: translateY(-20px);
+  box-shadow: grey 13px 13px 13px;
+  cursor: pointer;
+}
+
+/* Dokter */
+.doctor {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(97, 186, 255, 1) 0%, rgba(166, 239, 253, 1) 90.1%);
+  height: 90vh;
+}
+
+.produk h2 {
+  font-size: 21px;
+}
+
+.kartu {
+  position: relative;
+  width: 23%;
+  padding: 0px;
+  margin: 10px;
+  transition: 0.6s;
+  background-color: #fff;
+}
+.kartu img {
+  width: 100%;
+}
+.spesial1 {
+  background-color: #17a2b8;
+}
+.spesial1 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.spesial1 p {
+  font-weight: bold;
+  color: #fff;
+}
+.spesial2 {
+  background-color: #007bff;
+}
+.spesial2 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.spesial2 p {
+  font-weight: bold;
+  color: #fff;
+}
+.spesial3 {
+  background-color: #6610f2;
+}
+.spesial3 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.spesial3 p {
+  font-weight: bold;
+  color: #fff;
+}
+.spesial4 {
+  background-color: #6f42c1;
+}
+.spesial4 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.spesial4 p {
+  font-weight: bold;
+  color: #fff;
+}
+.hubungi li {
+  font-size: 12px;
+  transform: translateX(-10px);
+}
+
+.kartu:hover {
+  transform: translateY(-10px);
+  box-shadow: grey 13px 13px 13px;
+  cursor: pointer;
+}
+/* Penawaran Menarik */
+.pd {
+  padding: 27px;
+}
+.penawaran {
+  position: absolute;
+  transform: translateY(30px);
+  background-color: #0071ef;
+  width: 230px;
+  color: white;
+  padding: 14px;
+  font-weight: bold;
+  height: 50px;
+  transition: 0.5s;
+}
+
+.penawaran:hover {
+  margin-left: 20px;
+  box-shadow: grey -10px 8px 13px;
+  cursor: pointer;
+}
+
+.penawaran h4 {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.promo {
+  background-color: #f8f9fa;
+  height: 65vh;
+}
+
+.sale {
+  transform: translateY(120px);
+}
+
+.flexprom {
+  position: relative;
+  margin: 15px;
+  transition: 0.5s;
+}
+.flexprom img {
+  width: 100% !important;
+}
+.flexprom:hover {
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+
+/* BATAS SUCI REGISTER */
+
+.regist {
+  height: 110vh;
+}
+
+.register {
+  transform: translateY(40px);
+  height: 90vh;
+}
+
+.pendaftaran {
+  background-image: url(/img/health.png);
+  background-size: cover;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: #fff;
+  padding: 20px;
+}
+
+.pendaftaran h4 {
+  font-weight: bold;
+}
+
+.pendaftaran p {
+  font-weight: bold;
+}
+
+.inputfield {
+  background-color: #fff;
+  width: 45%;
+  height: 6vh;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.inputfield i {
+  color: black;
+  background-color: #fff;
+  transform: translateY(5px);
+}
+
+.inputfield input {
+  border: none;
+  margin: auto;
+  transform: translateY(5px);
+}
+
+.social span {
+  padding: 10px;
+  background-color: rgb(81, 81, 223);
+}
+
+.detail {
+  background-image: url(/img/register.png);
+  background-size: cover;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 20px;
+}
+
+.detail h4 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.ditel {
+  background-image: url(/img/login.png);
+  background-size: cover;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 20px;
+}
+
+.ditel h4 {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Pricing */
+.pricing {
+  height: 80vh;
+}
+
+.prices {
+  margin: 10px;
+  border-radius: 20px;
+  height: 60vh;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.harga {
+  background-image: linear-gradient(135deg, #81fbb8 10%, #28c76f 100%);
+}
+
+.harga button {
+  color: #fff;
+}
+
+.harga1 {
+  background-image: linear-gradient(135deg, #43cbff 10%, #9708cc 100%);
+}
+.harga1 button {
+  color: #fff;
+}
+.harga2 {
+  background-image: linear-gradient(135deg, #fff886 10%, #f072b6 100%);
+}
+.harga2 button {
+  color: #fff;
+}
+.periode {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.feature li {
+  text-align: left;
+}
+
+/* Footer */
+footer {
+  background-color: #0d6efd;
+  color: #fff !important;
+}
+.atas {
+  padding: 20px;
+}
+
+.col h4 {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.list ul li {
+  font-size: 13px;
+  transition: 0.7s;
+}
+
+.list ul li:hover {
+  transform: translateX(20px);
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 991px) {
+  .navbar-brand {
+    transform: translateX(-20px);
+  }
+  .nav-item {
+    transform: translateX(10px);
+  }
+  .gambar img {
+    transform: translateY(15px);
+  }
+  .content {
+    transform: translateY(10px);
+  }
+  .content h1 {
+    font-size: 20px;
+  }
+  .content p {
+    font-size: 20px;
+  }
+  .layanan {
+    height: 105vh;
+  }
+  .cards {
+    margin: 5px;
+  }
+  .cards img {
+    width: 40px;
+    border-radius: 10px;
+  }
+  .cards h4 {
+    font-size: 12px;
+  }
+  .cards p {
+    font-size: 10px;
+  }
+  .cards button {
+    font-size: 10px;
+  }
+
+  .spesial1 h4 {
+    font-size: 12px;
+  }
+  .spesial1 p {
+    font-size: 12px;
+  }
+  .spesial2 h4 {
+    font-size: 12px;
+  }
+  .spesial2 p {
+    font-size: 12px;
+  }
+  .spesial3 h4 {
+    font-size: 12px;
+  }
+  .spesial3 p {
+    font-size: 12px;
+  }
+  .spesial4 h4 {
+    font-size: 12px;
+  }
+  .spesial4 p {
+    font-size: 12px;
+  }
+  .hubungi li {
+    font-size: 8px;
+  }
+  .penawaran {
+    width: 160px;
+    height: 40px;
+  }
+  .penawaran h4 {
+    font-size: 13px;
+  }
+  .sale {
+    transform: translateY(50px);
+  }
+  .inputfield {
+    width: 70%;
+    height: 40px;
+  }
+  .inputfield input {
+    width: 80%;
+  }
+  .pricing {
+    height: 120vh;
+  }
+  .prices {
+    height: 112vh;
+  }
+  .feature li {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar-brand {
+    transform: translateX(-20px);
+  }
+  .nav-item {
+    transform: translateX(10px);
+  }
+  .content {
+    padding: 30px;
+  }
+  .content h1 {
+    font-size: 18px;
+  }
+  .content p {
+    font-size: 18px;
+  }
+  .cards {
+    width: 22%;
+  }
+  .cards h4 {
+    font-size: 8px;
+  }
+  .cards p {
+    font-size: 7px;
+  }
+  .cards a {
+    font-size: 9px;
+  }
+  .spesial1 h4 {
+    font-size: 11px;
+  }
+  .spesial1 p {
+    font-size: 10px;
+  }
+  .spesial2 h4 {
+    font-size: 11px;
+  }
+  .spesial2 p {
+    font-size: 10px;
+  }
+  .spesial3 h4 {
+    font-size: 11px;
+  }
+  .spesial3 p {
+    font-size: 10px;
+  }
+  .spesial4 h4 {
+    font-size: 11px;
+  }
+  .spesial4 p {
+    font-size: 10px;
+  }
+  .doctor {
+    height: 240vh;
+  }
+  .list p {
+    font-size: 11px;
+  }
+  .list ul li {
+    font-size: 11px;
+  }
+  .inputfield {
+    width: 90%;
+  }
+  .pricing {
+    height: 120vh;
+  }
+  .prices {
+    height: 112vh;
+  }
+  .feature li {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 546px) {
+  .content h1 {
+    font-size: 17px;
+  }
+  .conten p {
+    font-size: 17px;
+  }
+  .copyright p {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .navbar-brand {
+    width: 200px;
+    padding: 5px;
+  }
+  .navbar-brand img {
+    width: 300px;
+  }
+  .gambar {
+    display: none;
+  }
+  .content h1 {
+    font-size: 25px;
+  }
+  .content p {
+    font-size: 20px;
+  }
+  .layanan {
+    height: 435vh;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .cards {
+    width: 90%;
+    margin: 20px;
+    justify-content: center;
+  }
+  .cards img {
+    width: 120px;
+  }
+  .cards h4 {
+    font-size: 20px;
+  }
+  .cards p {
+    font-size: 18px;
+  }
+  .cards button {
+    font-size: 15px;
+  }
+  .kartu {
+    width: 90%;
+  }
+  .spesial1 h4 {
+    font-size: 18px;
+  }
+  .spesial1 p {
+    font-size: 16px;
+  }
+  .spesial2 h4 {
+    font-size: 18px;
+  }
+  .spesial2 p {
+    font-size: 16px;
+  }
+  .spesial3 h4 {
+    font-size: 18px;
+  }
+  .spesial3 p {
+    font-size: 16px;
+  }
+  .spesial4 h4 {
+    font-size: 18px;
+  }
+  .spesial4 p {
+    font-size: 16px;
+  }
+  .stabil {
+    transform: translateX(10px);
+  }
+
+  .doctor {
+    height: 450vh;
+  }
+
+  .promo {
+    height: 170vh;
+  }
+
+  .pd {
+    padding: 12px;
+  }
+  .sale {
+    transform: translateX(-15px);
+    margin-top: 60px;
+  }
+  .autflex {
+    flex-direction: column;
+  }
+
+  footer {
+    height: 139vh;
+  }
+  .detail {
+    display: none;
+  }
+  .pendaftaran {
+    width: 90%;
+    border-radius: 20px;
+    margin: auto;
+  }
+  .ditel {
+    display: none;
+  }
+  .pricing {
+    height: 235vh;
+  }
+  .prices {
+    width: 80%;
+    transform: translateX(30px);
+  }
+}
+@media only screen and (max-width: 388px) {
+  .content h1 {
+    font-size: 20px;
+  }
+  .content p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 327px) {
+  .navbar-brand img {
+    width: 260px;
+  }
+  .content h1 {
+    font-size: 18px;
+  }
+  .content p {
+    font-size: 18px;
+  }
+  .tombol {
+    width: 180px;
+    height: 40px;
+  }
+  .layanan {
+    height: 455vh;
+  }
+  .cards img {
+    width: 120px;
+  }
+  .cards h4 {
+    font-size: 20px;
+  }
+  .cards p {
+    font-size: 18px;
+  }
+  .cards button {
+    font-size: 15px;
+  }
+  .promo {
+    height: 145vh;
+  }
+
+  .doctor {
+    height: 390vh;
+  }
+  footer {
+    height: 145vh;
+  }
+  .regist {
+    height: 120vh;
+  }
+  .prices {
+    transform: translateX(27px);
+  }
+}
