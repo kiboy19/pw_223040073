@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 *,
 html,
 body {
@@ -399,6 +401,149 @@ footer {
   cursor: pointer;
 }
 
+/* Artikel Pages */
+.article {
+  position: relative;
+  height: 80vh;
+}
+
+.news {
+  padding: 20px;
+}
+
+.news h4 {
+  font-weight: bold;
+}
+
+.headline {
+  background-image: url(/img/kesehatan.jpg);
+  background-size: cover;
+  height: 60vh;
+  width: 60%;
+  border-radius: 30px;
+}
+
+.heading {
+  position: relative;
+  padding: 20px;
+  transform: translateY(210px);
+  background-color: #fff;
+  width: 90%;
+  opacity: 0.8;
+  margin: auto;
+  height: 140px;
+}
+.headline h2 {
+  position: relative;
+  font-weight: bold;
+}
+
+.wrapper {
+  width: 30%;
+  overflow: auto;
+  height: 60vh;
+}
+
+.popular {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular img {
+  width: 120px;
+  border-radius: 10px;
+}
+
+.popular h4 {
+  position: relative;
+  font-size: 15px;
+  width: 280px;
+  transform: translateX(140px);
+  margin-top: -60px;
+  font-weight: bold;
+}
+
+.popular p {
+  position: relative;
+  font-size: 12px;
+  transform: translateX(150px);
+}
+
+.blog {
+  height: 110vh;
+}
+
+.update {
+  border: solid #0071ef 1px;
+  margin: 10px;
+  transition: 0.8s;
+}
+.update img {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.title {
+  padding: 10px;
+}
+
+.title h4 {
+  font-size: 12px;
+  justify-content: right;
+}
+
+.kategori {
+  width: 45%;
+  background-color: rgb(69, 233, 233);
+  font-size: 14px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.update:hover {
+  transform: translateY(-20px);
+  box-shadow: grey 13px 13px 13px;
+}
+
+/* Dashboard */
+.dash {
+  background-color: #f8f9fa;
+  height: 20vh;
+}
+.board {
+  position: relative;
+  background-color: #fff;
+  height: 60px;
+  transform: translateY(30px);
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: grey 10px 5px 10px;
+}
+
+.tron h2 {
+  font-family: "Pacifico", cursive !important;
+  color: #0071ef;
+}
+
+.tron h3 {
+  font-family: "Bebas Neue", cursive !important;
+  color: #0071ef;
+}
+
+/* List Doc */
+.listdoc {
+  background-color: #f8f9fa;
+  height: 100vh;
+}
+
+.doc {
+  position: relative;
+  background-color: #fff;
+  height: 60vh;
+  box-shadow: grey 10px 5px 10px;
+  border-radius: 50px;
+}
+
 /* RESPONSIVE */
 @media only screen and (max-width: 991px) {
   .navbar-brand {
@@ -492,6 +637,12 @@ footer {
   .feature li {
     font-size: 14px;
   }
+  .heading {
+    height: 12rem;
+  }
+  .blog {
+    height: 70vh;
+  }
 }
 @media only screen and (max-width: 767px) {
   .navbar-brand {
@@ -566,6 +717,11 @@ footer {
   .feature li {
     font-size: 11px;
   }
+  .article {
+  }
+  .blog {
+    height: 160vh;
+  }
 }
 @media only screen and (max-width: 546px) {
   .content h1 {
@@ -576,6 +732,9 @@ footer {
   }
   .copyright p {
     font-size: 11px;
+  }
+  .heading {
+    height: 15rem;
   }
 }
 @media only screen and (max-width: 395px) {
@@ -596,7 +755,7 @@ footer {
     font-size: 20px;
   }
   .layanan {
-    height: 435vh;
+    height: auto;
   }
   .row {
     flex-direction: column;
@@ -650,11 +809,11 @@ footer {
   }
 
   .doctor {
-    height: 450vh;
+    height: auto;
   }
 
   .promo {
-    height: 170vh;
+    height: auto;
   }
 
   .pd {
@@ -669,10 +828,17 @@ footer {
   }
 
   footer {
-    height: 139vh;
+    height: auto;
+    bottom: 0;
   }
   .detail {
     display: none;
+  }
+  .register {
+    height: auto;
+  }
+  .regist {
+    height: 60vh;
   }
   .pendaftaran {
     width: 90%;
@@ -683,11 +849,41 @@ footer {
     display: none;
   }
   .pricing {
-    height: 235vh;
+    height: auto;
   }
   .prices {
     width: 80%;
     transform: translateX(30px);
+  }
+  .respon {
+    flex-direction: column;
+  }
+  .article {
+    height: 140vh;
+  }
+  .headline {
+    width: 90%;
+    margin: auto;
+  }
+  .wrapper {
+    transform: translateY(170px);
+    width: 90%;
+    overflow: hidden;
+  }
+  .popular h4 {
+    transform: translateX(130px);
+    width: 270px;
+  }
+  .popular p {
+    transform: translateX(150px);
+  }
+  .blog {
+    height: auto;
+  }
+  .update {
+    width: 90%;
+    justify-content: space-between;
+    transform: translateX(11px);
   }
 }
 @media only screen and (max-width: 388px) {
