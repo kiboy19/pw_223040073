@@ -28,7 +28,7 @@
               <a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#artikel">Artikel</a>
+              <a class="nav-link active" href="artikel.php">Artikel</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="pricing.php">Biaya</a>

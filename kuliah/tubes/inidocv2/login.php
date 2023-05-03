@@ -19,7 +19,7 @@
           <img src="img/inidoc.png" alt="Inidoc- Konsultasikan kesehatanmu" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon" style></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
@@ -27,7 +27,7 @@
               <a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="index.php">Artikel</a>
+              <a class="nav-link active" href="artikel.php">Artikel</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="pricing.php">Biaya</a>
@@ -70,15 +70,21 @@
                 $pass = $_POST['pass'];
 
                 $cek = mysqli_query($conn, "SELECT * FROM tb_admin WHERE username = '".$user."' AND password = '".MD5($pass)."'");
-                if(mysqli_num_rows($cek) > 0) {
-                   echo '<script>alert("Berhasil Login")</script>';
-                   echo '<script>window.location="dashboard.php"</script>';
-                }else {
-                  echo '<script>alert("Login Gagal")</script>';
-                }
-              }
-            ?>
-            <br>
+                if(mysqli_num_rows($cek) >
+            0) { echo '
+            <script>
+              alert("Berhasil Login");
+            </script>
+            '; echo '
+            <script>
+              window.location = "/pw_223040073/kuliah/tubes/inidocv2/dashboard/dashboard.php";
+            </script>
+            '; }else { echo '
+            <script>
+              alert("Login Gagal");
+            </script>
+            '; } } ?>
+            <br />
             <p>Atau mendaftar, dengan</p>
             <div class="social">
               <span><i class="fa-brands fa-facebook"></i></span>

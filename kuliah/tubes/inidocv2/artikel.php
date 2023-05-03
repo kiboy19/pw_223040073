@@ -15,7 +15,7 @@
     <!-- Navigasi Bar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
           <img src="img/inidoc.png" alt="Inidoc- Konsultasikan kesehatanmu" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+              <a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#artikel">Artikel</a>
@@ -51,43 +51,43 @@
         <div class="row respon">
           <div class="col headline">
             <div class="heading">
-              <h2>Tips Mudah untuk Meningkatkan Kesehatan Fisik dan Mental Anda</h2>
+              <a href="artikel/meningkatkan-kesehatan-fisik.php"><h2>Tips Mudah untuk Meningkatkan Kesehatan Fisik dan Mental Anda</h2></a>
             </div>
           </div>
           <div class="col wrapper">
             <div class="popular">
               <img src="img/jantung.png" alt="Kesehatan Jantung" />
-              <h4>Menjaga Kesehatan Jantung dengan Pola Makan Sehat</h4>
+              <a href=""><h4>Menjaga Kesehatan Jantung dengan Pola Makan Sehat</h4></a>
               <p>3 Menit</p>
             </div>
             <div class="popular">
               <img src="img/imun.png" alt="Kekebalan Imun Tubuh" />
-              <h4>Membangun Sistem Kekebalan Tubuh yang Kuat dengan Asupan Nutrisi Tepat</h4>
+              <a href=""><h4>Membangun Sistem Kekebalan Tubuh yang Kuat dengan Asupan Nutrisi Tepat</h4></a>
               <p>3 Menit</p>
             </div>
             <div class="popular">
               <img src="img/cancer.png" alt="Mencegah Kanker" />
-              <h4>Mencegah Kanker dengan Gaya Hidup Sehat dan Perubahan Pola Makan</h4>
+              <a href=""><h4>Mencegah Kanker dengan Gaya Hidup Sehat dan Perubahan Pola Makan</h4></a>
               <p>3 Menit</p>
             </div>
             <div class="popular">
               <img src="img/mental.png" alt="Kesehatan Mental" />
-              <h4>Menjaga Kesehatan Mental dengan Mengelola Stres</h4>
+              <a href=""><h4>Menjaga Kesehatan Mental dengan Mengelola Stres</h4></a>
               <p>3 Menit</p>
             </div>
             <div class="popular">
               <img src="img/tidur.png" alt="Kualitas Tidur" />
-              <h4>Mengoptimalkan Kualitas Tidur untuk Kesehatan yang Lebih Baik</h4>
+              <a href=""><h4>Mengoptimalkan Kualitas Tidur untuk Kesehatan yang Lebih Baik</h4></a>
               <p>3 Menit</p>
             </div>
             <div class="popular">
               <img src="img/berat.png" alt="Kebiasan Hidup Sehat" />
-              <h4>Membangun Kebiasaan Hidup Sehat: Menjaga Berat Badan Ideal dan Menghindari Penyakit Metabolik</h4>
+              <a href=""><h4>Membangun Kebiasaan Hidup Sehat: Menjaga Berat Badan Ideal dan Menghindari Penyakit Metabolik</h4></a>
               <p>3 Menit</p>
             </div>
             <div class="popular">
               <img src="img/mata.png" alt="Kesehatan Mata" />
-              <h4>"Menjaga Kesehatan Mata: Tips untuk Menghindari Gangguan Mata</h4>
+              <a href=""><h4>"Menjaga Kesehatan Mata: Tips untuk Menghindari Gangguan Mata</h4></a>
               <p>3 Menit</p>
             </div>
           </div>
@@ -103,7 +103,7 @@
           <div class="col update">
             <img src="img/jenissport.png" alt="" />
             <div class="title">
-              <h4>Mengenal Jenis-Jenis Olahraga yang Baik untuk Kesehatan Tubuh</h4>
+              <a href=""><h4>Mengenal Jenis-Jenis Olahraga yang Baik untuk Kesehatan Tubuh</h4></a>
               <p class="kategori">Tips</p>
               <p></p>
             </div>
@@ -111,7 +111,7 @@
           <div class="col update">
             <img src="img/jantung.png" alt="" />
             <div class="title">
-              <h4>Menjaga Kesehatan Jantung dengan Pola Makan Sehat</h4>
+              <a href=""><h4>Menjaga Kesehatan Jantung dengan Pola Makan Sehat</h4></a>
               <p class="kategori">Kesehatan</p>
               <p></p>
             </div>
@@ -119,7 +119,7 @@
           <div class="col update">
             <img src="img/imun.png" alt="" />
             <div class="title">
-              <h4>Membangun Sistem Kekebalan Tubuh yang Kuat dengan Asupan Nutrisi Tepat</h4>
+              <a href=""><h4>Membangun Sistem Kekebalan Tubuh yang Kuat dengan Asupan Nutrisi Tepat</h4></a>
               <p class="kategori">Tips</p>
               <p></p>
             </div>
@@ -127,7 +127,7 @@
           <div class="col update">
             <img src="img/cancer.png" alt="" />
             <div class="title">
-              <h4>Mencegah Kanker dengan Gaya Hidup Sehat dan Perubahan Pola Makan</h4>
+             <a href=""> <h4>Mencegah Kanker dengan Gaya Hidup Sehat dan Perubahan Pola Makan</h4></a>
               <p class="kategori">Tips</p>
               <p></p>
             </div>
@@ -137,7 +137,7 @@
           <div class="col update">
             <img src="img/mental.png" alt="" />
             <div class="title">
-              <h4>Menjaga Kesehatan Mental dengan Mengelola Stres</h4>
+              <a href=""><h4>Menjaga Kesehatan Mental dengan Mengelola Stres</h4></a>
               <p class="kategori">Kesehatan</p>
               <p></p>
             </div>
@@ -145,7 +145,7 @@
           <div class="col update">
             <img src="img/tidur.png" alt="" />
             <div class="title">
-              <h4>Mengoptimalkan Kualitas Tidur untuk Kesehatan yang Lebih Baik</h4>
+              <a href=""><h4>Mengoptimalkan Kualitas Tidur untuk Kesehatan yang Lebih Baik</h4></a>
               <p class="kategori">Tips</p>
               <p></p>
             </div>
@@ -153,7 +153,7 @@
           <div class="col update">
             <img src="img/berat.png" alt="" />
             <div class="title">
-              <h4>Membangun Kebiasaan Hidup Sehat: Menjaga Berat Badan Ideal dan Menghindari Penyakit Metabolik</h4>
+              <a href=""><h4>Membangun Kebiasaan Hidup Sehat: Menjaga Berat Badan Ideal dan Menghindari Penyakit Metabolik</h4></a>
               <p class="kategori">Tips</p>
               <p></p>
             </div>
@@ -161,7 +161,7 @@
           <div class="col update">
             <img src="img/cedera.png" alt="" />
             <div class="title">
-              <h4>Mengurangi Risiko Cedera Olahraga dengan Pemanasan yang Tepat</h4>
+              <a href=""><h4>Mengurangi Risiko Cedera Olahraga dengan Pemanasan yang Tepat</h4></a>
               <p class="kategori">Kesehatan</p>
               <p></p>
             </div>
