@@ -1,0 +1,1386 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+/* Navigasi */
+.navbar {
+  background-color: #0071ef !important;
+}
+
+.navbar-brand {
+  transform: translateX(140px);
+}
+
+.navbar-brand img {
+  width: 300px;
+}
+.nav-item {
+  margin-left: 20px;
+  transform: translateX(-210px);
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.daftar {
+  background-color: #f8f9fa;
+  width: 120px;
+  text-align: center;
+  border-radius: 20px;
+  color: #0071ef !important;
+  transition: 0.5s;
+}
+
+.daftar:hover {
+  background-color: #0ffc71;
+  color: black !important;
+}
+
+/* Landingpage */
+.kesehatan {
+  background-color: #0071ef;
+}
+
+.content {
+  padding: 10px;
+  width: 50%;
+}
+
+.main {
+  transform: translateY(200px);
+}
+
+.content h1 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 40px;
+}
+
+.content p {
+  font-size: 23px;
+  color: #fff;
+  font-style: italic;
+}
+
+.tombol {
+  width: 50%;
+  height: 5vh;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #0071ef;
+  transition: 0.5s;
+  background-color: #fff;
+}
+
+.tombol:hover {
+  background-color: #0ffc71;
+  color: black;
+}
+
+/* Layanan */
+.layanan {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+.produk {
+  padding: 30px;
+}
+.cards {
+  background-color: #fff;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 20px;
+  transition: 0.6s;
+  width: 30%;
+}
+.cards img {
+  border-radius: 20px;
+}
+.cards h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.cards p {
+  font-size: 15px;
+}
+.cards a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cards:hover {
+  transform: translateY(-20px);
+  box-shadow: grey 13px 13px 13px;
+  cursor: pointer;
+}
+
+/* Dokter */
+.doctor {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(97, 186, 255, 1) 0%,
+    rgba(166, 239, 253, 1) 90.1%
+  );
+  padding: 20px;
+}
+
+.produk h2 {
+  font-size: 21px;
+}
+
+.kartu {
+  position: relative;
+  width: 23%;
+  padding: 0px;
+  margin: 10px;
+  transition: 0.6s;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.kartu img {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.spesial1 {
+  background-color: #17a2b8;
+}
+.spesial1 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.spesial1 p {
+  font-weight: bold;
+  color: #fff;
+}
+.spesial2 {
+  background-color: #007bff;
+}
+.spesial2 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.spesial2 p {
+  font-weight: bold;
+  color: #fff;
+}
+.spesial3 {
+  background-color: #6610f2;
+}
+.spesial3 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.spesial3 p {
+  font-weight: bold;
+  color: #fff;
+}
+.spesial4 {
+  background-color: #6f42c1;
+}
+.spesial4 h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.spesial4 p {
+  font-weight: bold;
+  color: #fff;
+}
+.hubungi li {
+  font-size: 12px;
+  transform: translateX(-10px);
+}
+
+.kartu:hover {
+  transform: translateY(-10px);
+  box-shadow: grey 13px 13px 13px;
+  cursor: pointer;
+}
+/* Penawaran Menarik */
+.penawaran {
+  position: relative;
+  transform: translateY(30px);
+  background-color: #0071ef;
+  width: 230px;
+  color: white;
+  padding: 14px;
+  font-weight: bold;
+  height: 50px;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+
+.penawaran:hover {
+  margin-left: 20px;
+  box-shadow: grey -10px 8px 13px;
+  cursor: pointer;
+}
+
+.penawaran h4 {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.flexprom {
+  position: relative;
+  margin: 10px;
+  transition: 0.5s;
+  width: 30%;
+}
+.flexprom img {
+  width: 100%;
+}
+.flexprom:hover {
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background-color: #0d6efd;
+  color: #fff !important;
+}
+.atas {
+  padding: 20px;
+}
+
+.col h4 {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.list {
+  text-align: center;
+  margin: 10px;
+  width: 30%;
+}
+
+.list li {
+  text-align: center;
+  font-size: 13px;
+  transition: 0.7s;
+}
+
+.list li:hover {
+  transform: translateX(20px);
+  cursor: pointer;
+}
+
+/* BATAS SUCI REGISTER */
+.badan {
+  background-image: url(../img/background.png);
+  padding: 120px;
+}
+.regist {
+  padding: 20px;
+}
+.register {
+  height: 60vh;
+}
+
+.pendaftaran {
+  background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+  border-radius: 30px;
+  color: #fff;
+  padding: 80px;
+  width: 50%;
+  margin: auto;
+  height: auto;
+  box-shadow: black 5px 5px 15px;
+}
+
+
+.inputfield {
+  background-color: #fff;
+  width: 45%;
+  height: 2.5rem;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.inputfield i {
+  color: black;
+  background-color: #fff;
+  transform: translateY(5px);
+}
+
+.inputfield input {
+  border: none;
+  margin: auto;
+  transform: translateY(5px);
+}
+
+.social {
+  transform: translateY(160px);
+}
+
+.social span {
+  padding: 10px;
+  background-color: rgb(81, 81, 223);
+}
+
+.detail {
+  background-image: url(../img/register.png);
+  background-size: cover;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 20px;
+}
+
+.detail h4 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.ditel {
+  background-image: url(../img/login.png);
+  background-size: cover;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 20px;
+  width: 50%;
+}
+
+.ditel h4 {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Pricing */
+.prices {
+  position: relative;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.prices hr {
+  color: #fff;
+}
+
+.harga {
+  width: 30%;
+  background-color: #0b88d4;
+  background-image: linear-gradient(
+    19deg,
+    #0b88d4 0%,
+    #0397f0 50%,
+    #0b88d4 100%
+  );
+}
+
+.harga h4 {
+  color: #fff;
+}
+
+.harga button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.periode {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.feature li {
+  text-align: left;
+  color: #fff;
+}
+
+
+
+/* Artikel Pages */
+.article {
+  position: relative;
+}
+
+.news {
+  padding: 20px;
+}
+
+.news h4 {
+  font-weight: bold;
+}
+
+.headline {
+  background-image: url(../img/kesehatan.jpg);
+  background-size: cover;
+  height: 60vh;
+  width: 50%;
+  border-radius: 30px;
+}
+
+.heading {
+  position: relative;
+  padding: 20px;
+  transform: translateY(210px);
+  background-color: #fff;
+  width: 90%;
+  opacity: 0.8;
+  margin: auto;
+  height: 140px;
+}
+.headline a {
+  position: relative;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  width: 50%;
+  overflow: auto;
+  height: 60vh;
+}
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #0158ea 100%);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.popular img {
+  width: 120px;
+  border-radius: 10px;
+}
+
+.popular a {
+  text-decoration: none;
+}
+
+.popular a h4 {
+  position: relative;
+  font-size: 18px;
+  width: 70%;
+  transform: translateX(140px);
+  margin-top: -70px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.popular p {
+  position: relative;
+  font-size: 12px;
+  transform: translateX(150px);
+  margin-top: -5px;
+  color: #fff;
+}
+
+.update {
+  border: solid #0071ef 1px;
+  margin: 10px;
+  transition: 0.8s;
+  border-radius: 20px;
+}
+.update img {
+  padding-top: 20px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.title {
+  padding: 10px;
+}
+
+.title a {
+  text-decoration: none;
+  color: black;
+}
+
+.title a h4 {
+  font-size: 12px;
+  justify-content: right;
+}
+
+.kategori {
+  width: 45%;
+  background-color: rgb(69, 233, 233);
+  font-size: 14px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.update:hover {
+  transform: translateY(-20px);
+  box-shadow: grey 13px 13px 13px;
+}
+
+/* Dashboard */
+.dash {
+  background-color: #f8f9fa;
+  height: 20vh;
+}
+.board {
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: grey 10px 5px 10px;
+}
+
+.tron {
+  width: 50%;
+}
+
+.tron h2 {
+  font-family: "Pacifico", cursive !important;
+  color: #0071ef;
+}
+
+.tron h3 {
+  font-family: "Bebas Neue", cursive !important;
+  color: #0071ef;
+}
+
+/* List Doc */
+.listdoc {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.doc {
+  position: relative;
+  background-color: #fff;
+  box-shadow: grey 10px 5px 10px;
+  border-radius: 50px;
+}
+
+.docbest {
+  padding: 40px;
+  text-align: center;
+  background-color: #0d6efd;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.terbaik {
+  padding: 15px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.terbaik h4 {
+  font-weight: bold;
+}
+
+.docterbaik {
+  padding: 20px;
+  background-color: #fff;
+  transform: translateY(20px);
+  border-radius: 15px;
+}
+
+.docterbaik img {
+  width: 100%;
+}
+
+.docbout {
+  background-color: #fff;
+  transform: translateY(30px);
+  height: 4vh;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.docchat {
+  background-color: #fff;
+  transform: translateY(40px);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.docchat button {
+  width: 90%;
+}
+
+.docchat button:hover {
+  opacity: 0.8;
+}
+
+.docchat button a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.doctive {
+  padding: 40px;
+  background-color: salmon;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.doctive h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.doctive h4 i {
+  color: rgb(123, 197, 11);
+}
+/* List doctor online */
+.docnow {
+  height: 70vh;
+  background-color: #fff;
+  transform: translateY(20px);
+  padding: 20px;
+  overflow: auto;
+  border-radius: 20px;
+}
+
+.oldoc {
+  background-color: rgb(148, 148, 255);
+  padding: 10px;
+  height: 10vh;
+  border-radius: 20px;
+  margin: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.oldoc:hover {
+  transform: translateX(20px);
+}
+
+.oldoc img {
+  width: 60px;
+  transform: translateX(30px);
+  border-radius: 10px;
+}
+
+.oldoc h6 {
+  font-weight: bold;
+  margin-left: 100px;
+  transform: translateY(-50px);
+}
+.oldoc p {
+  margin-left: 100px;
+  transform: translateY(-55px);
+}
+
+/* Konsul */
+.tasi {
+  background-color: #f8f9fa;
+  height: 120vh;
+}
+.konsul {
+  position: relative;
+  background-color: #fff;
+  transform: translateY(80px);
+  padding: 20px;
+  box-shadow: grey 10px 5px 10px;
+  border-radius: 20px;
+  height: 100vh;
+}
+.chatting {
+  position: relative;
+  background-color: #007bff;
+  width: 100%;
+  height: 10vh;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: grey 0px 2px 12px 2px;
+}
+
+.chatting h4 {
+  font-family: "Bebas Neue", cursive !important;
+  color: #f5f5f5;
+}
+
+.chatting p {
+  font-weight: bold;
+}
+
+.isichat {
+  position: relative;
+  background-color: salmon;
+  height: 65vh;
+  box-shadow: grey 0px 2px 12px 2px;
+  padding: 20px;
+}
+
+.pesandoc {
+  background-color: #007bff;
+  padding: 20px;
+  width: 40%;
+  height: 10vh;
+  border-radius: 10px;
+}
+.pesandoc img {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.pesandoc p {
+  margin-left: 70px;
+  transform: translateY(-35px);
+}
+
+.down {
+  transform: translateY(130px);
+}
+.penggunapesan {
+  float: right;
+  background-color: #007bff;
+  padding: 20px;
+  width: 40%;
+  height: 10vh;
+  border-radius: 10px;
+  transform: translateY(20px);
+}
+
+.penggunapesan img {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.penggunapesan p {
+  margin-left: 70px;
+  transform: translateY(-35px);
+}
+
+.ketik {
+  position: relative;
+  background-color: #007bff;
+  height: 13vh;
+  padding: 10px;
+  box-shadow: grey 0px 2px 12px 2px;
+}
+
+.ketik form input {
+  height: 10vh;
+  width: 80%;
+  text-align: center;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+
+.ketik form button {
+  height: 86px;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 0.5s;
+  background-color: #fff;
+}
+
+.ketik form button:hover {
+  background-color: salmon;
+  color: #fff;
+}
+
+/* Daftar Produk */
+.daprod {
+  position: relative;
+  width: 100%;
+}
+
+.daprod table {
+  position: relative;
+  background-color: #0b88d4;
+  background-image: linear-gradient(
+    19deg,
+    #0b88d4 0%,
+    #0397f0 50%,
+    #0b88d4 100%
+  );
+  border-radius: 10px;
+}
+
+.daprod table a {
+  color: white;
+  text-decoration: none;
+}
+
+.daprod table a:hover {
+  color: #3cff67;
+}
+
+.daprod table tr th {
+  padding: 20px;
+  color: white;
+}
+
+.daprod table tr td {
+  padding: 20px;
+  color: white;
+  border: solid 1px;
+}
+
+.daprod table img {
+  width: 70px;
+}
+
+/* Halaman Produk */
+
+.tamprod {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+}
+.tamprod table {
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px !important;
+  background-color: #0071ef;
+  background-color: #0b88d4;
+  background-image: linear-gradient(
+    19deg,
+    #0b88d4 0%,
+    #0397f0 50%,
+    #0b88d4 100%
+  );
+  color: white;
+}
+
+.tamprod table a {
+  text-decoration: none;
+  color: white;
+}
+
+.namprod {
+  background-color: #0b88d4;
+  background-image: linear-gradient(
+    19deg,
+    #0b88d4 0%,
+    #0397f0 50%,
+    #0b88d4 100%
+  );
+  padding: 5px;
+  width: 25%;
+  margin: auto;
+  border-radius: 20px;
+}
+.namprod h2 {
+  color: #fff;
+  font-size: 25px;
+}
+
+.pembatas {
+  background-color: #0b88d4;
+  background-image: linear-gradient(
+    19deg,
+    #0b88d4 0%,
+    #0397f0 50%,
+    #0b88d4 100%
+  );
+  width: 20%;
+  padding: 5px;
+  border-radius: 10px;
+}
+.pembatas h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.medicine {
+  padding: 10px;
+  background-color: #0b88d4;
+  background-image: linear-gradient(
+    19deg,
+    #0b88d4 0%,
+    #0397f0 50%,
+    #0b88d4 100%
+  );
+  margin: 10px;
+  border-radius: 20px;
+  width: 30% ;
+}
+.medicine img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.medicine h4 {
+  color: #fff;
+  padding: 10px;
+}
+
+.medicine button {
+  transition: 0.5s;
+}
+.medicine button:hover {
+  background-color: rgb(17, 187, 17) !important;
+}
+
+.medicine button a {
+  color: black;
+  text-decoration: none;
+}
+
+/* DETAIL ARTIKEL */
+
+.doit {
+  padding: 30px;
+}
+
+.detailartikel {
+  background-color: #0b88d4;
+  background-image: linear-gradient(
+    19deg,
+    #0b88d4 0%,
+    #0397f0 50%,
+    #0b88d4 100%
+  );
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.detailartikel h2 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.detailartikel img {
+  border-radius: 20px;
+}
+.detailartikel p {
+  padding: 8px;
+  justify-content: center;
+  white-space: pre-wrap;
+  color: #fff;
+}
+.cardpop {
+  position: relative;
+  background-color: #0b88d4;
+  background-image: linear-gradient(
+    19deg,
+    #0b88d4 0%,
+    #0397f0 50%,
+    #0b88d4 100%
+  );
+  padding: 10px;
+  margin: 10px;
+  height: 9vh;
+  width: 80%;
+  float: right;
+  transition: 0.6s;
+  border-radius: 10px;
+}
+
+.cardpop:hover {
+  transform: translateX(-30px);
+}
+.cardpop img {
+  width: 100px;
+}
+
+.cardpop a {
+  text-decoration: none;
+}
+.cardpop a h4 {
+  color: #fff;
+  width: 60%;
+  margin-left: 110px;
+  transform: translateY(-50px);
+  font-size: 14px;
+}
+
+.titpop {
+  position: relative;
+  float: right;
+  background-color: #0b88d4;
+  background-image: linear-gradient(
+    19deg,
+    #0b88d4 0%,
+    #0397f0 50%,
+    #0b88d4 100%
+  );
+  padding: 10px;
+  width: 40%;
+  transform: translateX(-10px);
+  border-radius: 10px;
+}
+.titpop h4 {
+  color: #fff;
+  text-align: center;
+}
+
+/* Detail Produk */
+.mainprod {
+  height: auto;
+  padding: 20px;
+}
+
+.detprod {
+  height: auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #0b88d4;
+  background-image: linear-gradient(
+    19deg,
+    #0b88d4 0%,
+    #0397f0 50%,
+    #0b88d4 100%
+  );
+  width: 50%;
+}
+
+.dprod {
+  padding: 10px;
+}
+
+.detprod hr {
+  color: #fff;
+}
+.dprod img {
+  width: 70%;
+  height: 30vh;
+  float: right;
+  border-radius: 20px;
+}
+
+.deprices {
+  padding: 10px;
+}
+
+.deprices h3 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.deprices h2 {
+  color: #fff;
+}
+
+.deprices p {
+  color: #fff;
+}
+
+.garansi {
+  border: solid #fff 1px;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.garansi p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.desc {
+  padding: 20px;
+}
+.desc h4 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.desc p {
+  color: #fff;
+}
+
+/* Tambah produk kesehatan */
+.kotakheader {
+  position: relative;
+  background-color: #0071ef;
+  padding: 20px;
+  width: 30%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.kotakheader h2 {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+.kotakan {
+  position: relative;
+  background-color: #0071ef;
+  transform: translateY(20px);
+  width: 40%;
+  padding: 10px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.kotakan form {
+  background-color: #0071ef !important;
+  border: none !important;
+  color: white;
+}
+
+.pdeskripsi {
+  width: 90%;
+  height: 50vh;
+}
+
+/* CSS Contentpage artikel */
+.acontent {
+  padding: 10px;
+}
+
+.mcontent {
+  padding: 10px;
+}
+
+.benerin {
+  margin-top: 80px;
+}
+
+.dycard {
+  position: relative;
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #0158ea 100%);
+  padding: 20px;
+  width: 23%;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: black 4px 5px 15px 0px;
+  transition: 0.3s;
+}
+
+.dycard:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.dycard h4 {
+  color: #fff;
+}
+
+.dycard img {
+  border-radius: 10px;
+  filter: blur(1px);
+  transition: 0.3s;
+}
+
+.dycard img:hover {
+  filter: none;
+}
+
+.dycard button {
+  background-image: linear-gradient(135deg, #81fbb8 10%, #28c76f 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 13px;
+  width: 100%;
+}
+
+.dycard button a {
+  text-decoration: none;
+  color: black;
+}
+
+.pencarian {
+  position: relative;
+  width: 21%;
+  padding: 10px;
+  background-color: background-color: #0b88d4;
+  background-image: linear-gradient(
+    19deg,
+    #0b88d4 0%,
+    #0397f0 50%,
+    #0b88d4 100%
+  );
+  border-radius: 20px;
+}
+
+.pencarian form input {
+  border: none;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.pencarian form button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+/* RESPONSIVE CSS */
+
+@media only screen and (max-width: 991px){
+  /* CSS NAVBAR */
+  .navbar-brand {
+    transform: translateX(-10px);
+  }
+  .nav-item {
+    transform: translateX(-10px);
+  }
+  /*Landing Medical Css */
+  .content {
+    transform: translateY(10px);
+  }
+  /* Layanan page */
+  .cards {
+    width: 30%;
+  }
+  .dycard {
+    width: 30%;
+  }
+  /* artikelpage */
+  .popular a h4 {
+    font-size: 15px;
+    transform: translateX(130px);
+    width: 50%;
+  }
+  .popular p {
+    transform: translateX(130px);
+  }
+  /* pricing */
+  .harga {
+    text-align: center;
+    width: 80%;
+    transform: translateX(20px);
+  }
+  /* CSS LOGIN */
+  .pendaftaran {
+    width: 80%;
+    padding: 50px;
+  }
+  .inputfield {
+    width: 80%;
+  }
+  /* index admin dan user */
+  .pembatas {
+    width: 30%;
+  }
+  .pencarian {
+    width: 40%;
+  }
+  /* Halaman Detail Artikel */
+  .detprod {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 428px){
+  /* navigasi */
+  .navbar-brand{
+    width: 50%;
+  }
+
+  /* landing Medical Css */
+  .content {
+    width: 100%;
+  }
+
+  /* layanan page */
+  .cards {
+    width: 100%;
+    flex-direction: row;
+  }
+  /* Docter pages */
+  .kartu {
+    width: 100%;
+  }
+  /* penawaran pages */
+  .flexprom {
+    width: 100%;
+    transform: translateX(-10px);
+  }
+  .flexprom img {
+    width: 100%;
+  }
+  /* footer */
+  .list {
+    width: 100%;
+    transform: translateX(-10px);
+  }
+  /* artikel page */
+  .headline {
+    width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .dycard {
+    width: 100%;
+    transform: translateX(-10px);
+  }
+  /* Pricing */
+  .harga {
+    width: 100%;
+    transform: translateX(-10px);
+  }
+  /* CSS LOGIN */
+  .badan {
+    padding: 20px;
+  }
+  .pendaftaran {
+    width: 100%;
+    padding: 10px;
+    transform: translateY(90px);
+  }
+  .inputfield {
+    width: 80%;
+  }
+  /* Index admin dan user */
+  .tron {
+    width: 100%;
+  }
+  .pembatas {
+    width: 70%;
+  }
+  .pencarian {
+    width: 90%;
+  }
+  /* Halaman produk */
+  .namprod {
+    width: 100%;
+  }
+  .medicine {
+    width: 100%;
+    transform: translateX(-10px);
+  }
+  /* Halaman detail produk */
+  .detprod {
+    width: 100%;
+  }
+  .detprod img {
+    width: 100%;
+  }
+  .dprod {
+    width: 100% !important;
+  }
+  .deprices {
+    width: 100% !important;
+  }
+  .garansi {
+    width: 100%;
+  }
+
+  .desc {
+    width: 100%;
+  }
+}
