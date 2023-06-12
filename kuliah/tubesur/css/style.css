@@ -1,0 +1,634 @@
+@font-face{
+	font-family: 'Lato-regular';
+	src: url('../assets/font/Lato/Lato-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'OpenSans-regular';
+	src: url('../assets/font/OpenSans/OpenSans-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: #fdfffcff;
+}
+
+.udl {
+    display: inline;
+    background-image: linear-gradient(#f1d302ff, #f1d302ff);
+    background-size: 0% 2px;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    transition: background .5s ease-out;
+}
+
+.udl:hover {
+    background-size: 100% 2px;
+}
+
+/* -------------------------------- Scrollbar ------------------------------- */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #020100ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f1d302ff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fdfffcff;
+}
+
+/* --------------------------------- Navbar --------------------------------- */
+.navbar {
+    background-color: transparent !important;
+    transition: all .4s ease;
+    padding: 0 !important;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.navbar-colored {
+    background-color: #020100ff !important;
+}
+
+.navbar-transparent {
+    background-color: transparent !important;
+}
+
+.d-menu {
+    background-color: #020100ff !important;
+}
+
+
+.app-bar-menu a {
+    font-size: 14px !important;
+    color: #fdfffcff !important;
+}
+
+/* ---------------------------------- Poster ---------------------------------- */
+.home .poster {
+    background: url("../assets/img/bg1.jpg")no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 650px;
+    margin-bottom: 0;
+    filter: background brightness(60%);
+}
+
+.home .poster .container {
+    color: white;
+    padding-top: 100px;
+}
+
+.home h2 {
+    margin-bottom: 0;
+    text-shadow: 3px 3px 2px black;
+    color: #fdfffcff !important;
+}
+
+.home h1 {
+    display: inline-block;
+    font-size: 64px;
+    font-weight: bold !important;
+    text-shadow: 3px 3px 2px black;
+    color: #fdfffcff !important;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+html:hover .home .udl {
+    background-size: 100% 35px;
+}
+
+.home .udl {
+    background-size: 0% 35px;
+    background-position: 0% 100%;
+    transition: background 1s ease-in-out;
+}
+
+.home .lead {
+    background-color: black;
+    display: inline-block;
+    padding: 8px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+
+
+/* ------------------------------ List Product ------------------------------ */
+.list-product{
+    margin-bottom: 70px;
+}
+.list-product .card {
+    min-height: 280px;
+    background-color: transparent !important;
+    transition: all 0.5s ease;
+
+}
+.list-product .harga{
+    font-weight: bold;
+}
+
+.list-product .card:hover {
+    border: 1px solid black !important;
+}
+
+.card-header {
+    min-height: 180px !important;
+    border-bottom: none !important;
+    background-color: transparent !important;
+}
+
+.list-product a {
+    color: black !important;
+}
+
+.image {
+    width: 70%;
+    margin: 0 auto !important;
+}
+
+.detail {
+    margin: 0 auto;
+    text-align: center;
+}
+.list-product:hover .udl{
+    background-size: 100% 2px;
+}
+.more-product{
+    padding-top: 50px;
+}
+/* Detail Product */
+.detail-product .container{
+    padding: 70px 0;
+}
+.detail-product  .nama-sepatu{
+    text-align: left;
+    font-family: 'Lato-regular';
+    font-weight: 600;
+    margin-bottom: 0;
+} 
+.detail-product  h4{
+    text-align: left;
+    font-family: 'Lato-regular';
+    font-weight: 400;
+    color: #646771;
+    margin: 0;
+    margin-bottom: 20px;
+} 
+.detail-product  h4 span{
+    display: inline;
+    background-image: linear-gradient(#f1d302ff, #f1d302ff);
+    background-size: 100% 0px;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    transition: background .7s ease-out;
+} 
+
+.detail-product:hover  h4 span {
+    background-size: 100% 35%;
+
+}
+.detail-product  h6{
+    color: #646771;
+}
+.detail-product  .auth h5,
+.detail-product  .auth h6,
+.detail-product  .auth p{
+    margin: 1px !important;
+    color: #646771;
+}
+.detail-product  .auth h5{
+    color: #141414;
+    margin-bottom: 10px !important;
+}
+/* --------------------------------- Product -------------------------------- */
+
+.controls-top .btn{
+    border: solid 1px #646771;
+    color: #646771;
+    margin: 5px;
+}
+.controls-top .btn:focus{
+    box-shadow: 0px 0px 5px #646771;
+}
+.controls-top .btn:hover{
+    border: solid 1px #141414;
+    color: #141414
+}
+.product .container{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.product .udl {
+    background-size: 0% 22px;
+    background-position: 0% 100%;
+    transition: background 1s ease-in-out;
+}
+.product:hover  .udl {
+    background-size: 100% 22px;
+}
+.product h1{
+    font-weight: 500;
+}
+.product h3{
+    margin-top: 25px;
+}
+
+.product h6{
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+.product img{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    filter: drop-shadow(2px 2px 3px #222);
+}
+.product .carousel{
+    border:  solid 1px #141414;
+}
+.product .card{
+    border:  none;
+    
+}
+.product .card-body {
+    padding-top: 0px;
+}
+.product .carousel-item .card{
+    background-color: transparent !important;
+}
+.product .carousel {
+    background-color: transparent !important;
+}
+
+.product .poster{
+    background-position: 100% 0% !important;
+    display: inline;
+    background-image: linear-gradient(#f1d302, #f1d302);
+    background-size: 0% 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    transition-delay: 1s;
+    transition: background 1s ease-out;
+    padding: 0;
+}
+
+.back-element {
+    background-size: 45% 100% !important;
+}
+  
+.back-element:hover {
+    background-size: 0% 100% !important;
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------------- Footer --------------------------------- */
+
+.footer{
+    padding: 2% 7%;
+    color: #646771;
+    background-color: #141414;
+}
+
+.footer .brand-logo{
+    max-width: 60px;
+    max-height: 60px;
+    margin : auto 0px
+
+}
+.footer .company-brand h1{
+     color: #f1d302ff;
+     margin-left: 10px;
+     border-left: 2px solid rgba(189, 196, 203, 0.5);
+     padding-left: 10px;
+     font-family: 'Lato-regular';
+     font-weight: bold;
+} 
+.footer .company-brand h1 span{
+    color: white;
+}
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.footer ul>li {
+    padding: 4px
+}
+
+.footer ul>li:hover {
+    color: #f1d302ff;
+    cursor: pointer
+}
+
+.footer a{
+    color: #646771 !important;
+}
+.footer a:hover {
+    color: #f1d302ff !important;
+    text-decoration: none;
+    cursor: pointer
+}
+.social i {
+    padding: 1%;
+    margin-right: 5px;
+    font-size: 20px
+}
+
+.social i:hover {
+    color:#f1d302ff;
+    cursor: pointer
+}
+
+.heading {
+    color: white
+}
+
+.line {
+    border-top: 2px solid #f1d302ff;
+}
+.footer h6{
+    transition: all .5s ease;
+}
+.footer:hover h6{
+    color: #f1d302ff;
+}
+.footer-content:hover .heading {
+    background-size: 100% 2px;
+}
+.footer p{
+    margin-top: 0;
+}
+
+/* ---------------------------------- Login --------------------------------- */
+
+.form-login{
+    background-color: #fdfffcff;
+    margin: auto;
+    border-radius: 30px;
+    /* padding:30px 50px !important; */
+    position: absolute;
+    margin-top: 120px;
+    box-shadow: 7px 7px 3px rgb(163, 145, 28);
+    place-items: center;
+    padding: 0 !important;
+}
+.form-login .title{
+    line-height: 100px;
+    background-color: #222;
+    margin :0;
+    padding: 0 !important;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    border-radius:  30px 30px 0px 0px;
+
+}
+.form-login .registrasi a{
+    color: #235789ff !important; 
+}
+.form-login form{
+    padding: 10px 30px 10px 30px ;
+    
+}
+.form-login form .field{
+    position: relative;
+    margin: 20px 0;
+}
+.form-login form .field input{
+    padding-left: 20px;
+    border-radius: 25px;
+    min-height: 50px;
+    border: 2px solid lightgrey;
+    outline: none;
+    transition: all 0.3s ease;
+    font-size: 17px;
+}
+
+.form-login form .field label{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 17px;
+    color: #999;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+   
+}
+.form-login form .field input:focus ~ label,
+.form-login form .field input:valid ~ label{
+    color: #414141;
+    font-size: 16px;
+    background: #fdfffcff;
+    top: 0%;
+    transform: translateY(-50%);
+    
+}
+.form-login form .field input:focus,
+.form-login form .field input:valid{
+    border-color: rgba(0, 0, 0,0.3);
+    box-shadow: none;
+}
+
+.form-login form button{
+    min-height: 50px;
+    font-size: 17px;
+    border-radius: 25px;
+}
+
+.form-login .registrasi{
+    padding: 10px 30px 40px 30px ;
+}
+
+
+/* ---------------------------------- Registrasi --------------------------------- */
+
+.form-registrasi{
+    background-color: #fdfffcff;
+    margin: auto;
+    border-radius: 30px;
+    /* padding:30px 50px !important; */
+    position: absolute;
+    margin-top: 120px;
+    box-shadow: 7px 7px 3px rgba(0, 0, 0,0.3);
+    place-items: center;
+    padding: 0 !important;
+}
+.form-registrasi .title{
+    line-height: 100px;
+    background-color: #222;
+    margin :0;
+    padding: 0 !important;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    border-radius:  30px 30px 0px 0px;
+
+}
+.form-registrasi .registrasi a{
+    color: #235789ff !important; 
+}
+.form-registrasi form{
+    padding: 10px 30px 50px 30px ;
+    
+}
+.form-registrasi form .field{
+    position: relative;
+    margin: 20px 0;
+}
+.form-registrasi form .field input{
+    padding-left: 20px;
+    border-radius: 25px;
+    min-height: 50px;
+    border: 2px solid lightgrey;
+    outline: none;
+    transition: all 0.3s ease;
+    font-size: 17px;
+}
+
+.form-registrasi form .field label{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: 17px;
+    color: #999;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+   
+}
+.form-registrasi form .field input:focus ~ label,
+.form-registrasi form .field input:valid ~ label{
+    color: #414141;
+    font-size: 16px;
+    background: #fdfffcff;
+    top: 0%;
+    transform: translateY(-50%);
+    
+}
+.form-registrasi form .field input:focus,
+.form-registrasi form .field input:valid{
+    border-color: rgb(248, 221, 47);
+    box-shadow: none;
+}
+
+.form-registrasi form button{
+    min-height: 50px;
+    font-size: 17px;
+    border-radius: 25px;
+}
+.form-registrasi a{
+    padding-top: 15px;
+    text-align: right !important;
+    color: #235789ff !important;
+}
+
+/* ---------------------------------- Admin --------------------------------- */
+.admin .table img{
+    max-width: 200px;
+}
+.admin .control{
+    padding-top: 20px;
+}
+
+
+
+
+/* ------------------------------- add product ------------------------------ */
+.add-product{
+    padding: 50px;
+}
+.add-product .container{
+    background-color: #fdfffcff;
+    padding: 5px 10px 50px 10px;
+    
+    box-shadow: 7px 7px 3px rgba(0, 0, 0,0.4);
+}
+.add-product .title{
+    line-height: 70px;
+    margin :0;
+    padding: 0 !important;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.add-product form .field{
+    margin:0 0 10px 0;
+}
+.add-product .btn-cancel{
+    margin-left: auto;
+    font-size: 28px;
+    margin-right: 10px;
+}
+.add-product .img-preview{
+    padding-top: 20px;
+    margin: auto;
+}
+
+
+/* ------------------------------- Edit product ------------------------------ */
+.edit-product{
+    padding: 50px;
+}
+.edit-product .container{
+    background-color: #fdfffcff;
+    padding: 5px 10px 50px 10px;
+    box-shadow: 7px 7px 3px rgba(0, 0, 0,0.4);
+}
+.edit-product .title{
+    line-height: 70px;
+    margin :0;
+    padding: 0 !important;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.edit-product form .field{
+    margin:0 0 10px 0;
+}
+.edit-product .btn-cancel{
+    margin-left: auto;
+    font-size: 28px;
+    margin-right: 10px;
+}
+.edit-product .img-preview{
+    padding-top: 20px;
+    margin: auto;
+}
+
+/* --------------------------------- produk --------------------------------- */
